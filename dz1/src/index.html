@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Поисковые системы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #000;
+        }
+
+        h1 {
+            color: #000;
+            margin-top: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        form:hover {
+            transform: scale(1.05);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #90EE90;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #77DD77;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .header {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #90EE90;
+            color: #000;
+            text-align: center;
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="header">
+    <h1>Поисковые системы</h1>
+</div>
+
+<div class="container">
+    <h1>Google</h1>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Yandex</h1>
+    <form action="https://yandex.ru/search">
+        <input type="text" name="text" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Bing</h1>
+    <form action="https://www.bing.com/search">
+        <input type="text" name="q" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Yahoo</h1>
+    <form action="https://search.yahoo.com/search">
+        <input type="text" name="p" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Lycos</h1>
+    <form action="https://search18.lycos.com/web">
+        <input type="text" name="q" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Nigma</h1>
+    <form action="https://www.nigma.net.ru/index.php">
+        <input type="text" name="query" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Seznam</h1>
+    <form action="https://search.seznam.cz">
+        <input type="text" name="q" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Gigablast</h1>
+    <form action="https://gigablast.org/search">
+        <input type="text" name="q" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Rambler</h1>
+    <form action="https://nova.rambler.ru/search">
+        <input type="text" name="query" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Swisscows</h1>
+    <form action="https://swisscows.com/ru/web">
+        <input type="text" name="query" placeholder="Запрос">
+        <input type="submit" value="Поиск">
+    </form>
+</div>
+</body>
+</html>
